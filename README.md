@@ -1,16 +1,13 @@
 # Machine-Learning
 
-Prediction and visualization for days_to_flowering from MAC Season 4 and KSU.
+This repository contains the code for the machine learning experiments for days to flowering and days to flag leaf emergence phenotypic traits of *Sorghum B* . 
 
-Prediction of days_to_flag leaf_emergence from MAC season 4
+-The trait datasets can be accessed from [here][1].
+[1]: <https://github.com/genophenoenvo/terraref-datasets>.
+-For genomic data:
+	-Distance matrix : (https://data.monarchinitiative.org/genophenoenvo/tassel5/distance/all_cultivars_distance.txt)
+	-Gene clusters :  (https://github.com/genophenoenvo/genomic_data/blob/master/FriendsOfEntropy/cultivar_k30cluster_score.dataframe)
+	
+### Contents
 
-Link to MAC season 4 datasets: https://drive.google.com/drive/u/1/folders/1gbB3Aa1F8ckyFk7qPr3LEiZCKPxk8DqJ
-
-
-Link to cultivar distance matrix: https://data.monarchinitiative.org/genophenoenvo/tassel5/distance/all_cultivars_distance.txt
-
-
-Link to soil datasets for MAC season 4: https://drive.google.com/drive/u/1/folders/1My5IdHmhT4ZrR5PJ0jx75IMwwkYqJVqT
-
-
-Link to weather station data for MAC season 4: https://drive.google.com/drive/u/1/folders/1N27fFxqHg3b36SrQ5X4lbcPFv1OUgxu7
+**MAC season 4 and KSU weather data visualization.ipynb** - Contains the code for visualization of environmental variables from MAC season 4 and Kansas State University.
